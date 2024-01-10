@@ -270,9 +270,9 @@ header {
     padding-left: 130px;
     transition: 1s;
 }
-.text1 > h2{
+.text1 > .texto-2{
     font-size: 2em;
-    padding-left:86px;
+    padding-left:229px;
     transition: 1s;
     transform: translateY(10);
     
@@ -284,27 +284,33 @@ header {
 
 /*main*/
 main {
-    width: 1200px;
+   
+}
+
+.main-back {
+    width: 850px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     box-shadow:5px 2px 10px #00000031;
-    padding: 100px;
+    padding: 50px 150px;
     border-radius: 10px;
     background-color: white;
+    
+
 }
 
-main h1, h2, p {
+.main-back h1, h2, p {
     padding: 5px;
     line-height: 30px;
     font-family: var(--estilo-fonte-1);
 }
 
-main div h1,h2 {
-    margin-left: 45px;
+.main-back div h1,h2 {
+    margin-left: -100px;
    
 }
-main .subtitulo {
+.main-back .subtitulo {
     margin-bottom: 50px;
     color: #323232;
 }
@@ -312,6 +318,7 @@ main .subtitulo {
 
 .artigo-1 {
     display: flex;
+    justify-content: center;
     margin-bottom: 70px;
 }
 
@@ -360,6 +367,7 @@ main .subtitulo {
 
 .artigo-2 {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -604,10 +612,12 @@ footer {
 
 
 
-.container-oraçao {
+.container-org-1{
+   
     height: 800px;
     display: flex;
-    background-color: #181818;
+    justify-content: center;
+   
 }
 
 .text-oração {
@@ -622,7 +632,7 @@ footer {
 
     background-color: #323232b4;
     margin-top: 240px;
-    margin-left: 300px;
+    margin-left: 100px;
     border-radius: 10px;
  
 }
@@ -753,7 +763,7 @@ footer {
 
 
 .container-email {
-    
+   
     height: 300px;
     margin: 30px 0px;
     background-color: var(--cor-primaria);
@@ -762,16 +772,29 @@ footer {
 .container-email #icapt-email{
     width: 300px;
     outline: none;
+    border: none;
     padding: 10px 20px;  
+    
+}
+
+.container-email #icapt-email:focus{
+    background-color: #e7e7e7
+     
+    
 }
 
 .container-email #submit-2{
+    
     background-color: #20a6ff;
     color: white;
     border: none;
     margin-left: 10px;
     padding: 10px 40px; 
    
+}
+
+#submit-2:hover{
+    background-color: #4bb7ff;
 }
 
 .container-email > div > h1 {
@@ -783,6 +806,7 @@ footer {
 }
 
 .container-email > div > form {
+    
     display: flex;
     justify-content: center;
    
@@ -801,50 +825,73 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  
-    padding: 200px;
-    
+    padding-bottom: 30px;
+}
+
+.back-doe {
+    width: 80%;
+    padding: 50px 0px;
+    background-color:#585858d2;
+    border-radius: 10px;
+    margin: auto;
+   
 }
 
 .doacao-bloco-1 {
     font-family: var(--estilo-fonte-1);
     display: flex;
-    justify-content:space-between;    
+    justify-content: center;
+   
+      
 }
 
 .doe-texto-1 {
     display: flex;  
 }
-.doe-texto-1 h1{
+.doe-text3 h1{
+    position:absolute;
     display: block;
     font-size: 4em;
-    margin-left: 300px;
+    margin-left: 0px;
     color:rgb(219, 219, 219);
-    margin-right: 20px;
+    
     
 }
 
-.doe-texto-1 p{
+.doe-text3 p{
     display: block;
     width: 300px;
+    margin-left: 130px;
 }
 
 .site-seguro h2{
-    margin-right:300px;
+    margin-left: 100px;
      color:rgb(219, 219, 219)
 }
 
+.site-seguro img {
+    width: 30px;
+}
+
+
+
 /*bloco 2*/
+
+
+
 .doacao-bloco-2 {
     
     font-family: var(--estilo-fonte-1);
     display: flex;
-    justify-content:space-between; 
+    justify-content: center;
 }
 
 .doe-texto-2 {
     margin-top: 100px;
-    margin-left: 300px;
+    margin-right: 100px;
+    margin-left: 0px;
+   
+   
 }
 
 
@@ -869,24 +916,32 @@ footer {
 .QR {
     margin-top: 100px;
     display: flex;
+    
 }
 
 .QR p {
    
-    margin-right: 250px;
+   
     margin-left: 20px;
     width: 150px;
 }
 
+
+
+/*BLOCO 3*/
+
+
+
 .doacao-bloco-3 {
     font-family: var(--estilo-fonte-1);
     display: flex;
-    justify-content:space-between; 
+    justify-content:center; 
 }
 
 .doe-texto-3 {
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 80px;
+    margin-right: 100px;
     color: white;
     font-size: 1em;
 }
@@ -898,7 +953,7 @@ footer {
 .what {
     margin-top: 100px;
     color: white;
-    margin-right: 300px;
+   
 
 }
 
@@ -908,11 +963,6 @@ footer {
 
 }
 
-.back-doe {
-    padding: 100px 0px;
-    background-color:#585858d2;
-    border-radius: 10px;
-}
 
 
 /*------------------------*/
