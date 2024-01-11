@@ -29,18 +29,65 @@ body {
 
 
  /*HEADER*/
+
+
 header {
    
     background-color: var(--cor-primaria);
 }
- 
-#cabeçalho {
-   margin-left: 15%;
-   
+.head-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.menu-button {
+    width: 50px;
+    margin: auto;
+    display: block;
+    display: none;
+    transition: 0.3s ease;
+}
+
+.menu-button:hover {
+    filter: opacity(50%);
+}
+
+
+@media only screen and (max-width: 1182px) {
+    .head-back {
+        display: block;
+   
+    }
+    
+    .menu-button {
+        width: 50px;
+        margin: auto;
+        display: block;
+        z-index: 1;
+        margin-bottom: -50;
+
+        transition: 0.3s ease;
+
+    }
+
+    .lista-cb > li {
+        display: none;
+    }
+
+    .logo { 
+    text-align: center;   
+    }
+    .fundo-button {
+        background-color: #8a8a8a;
+    }
+  
+     
+  }
 
 .logo {
     margin-right: 15%;
+    padding: 30px 0px;
 }
 
 @media only screen and (max-width: 1442px) {
@@ -54,8 +101,9 @@ header {
      
   }
 
-  @media only screen and (max-width: 1279px) {
+  @media only screen and (max-width: 1307px) {
     .logo {
+        
         margin-right: 5%;
     }
     #cabeçalho {
@@ -95,6 +143,7 @@ header {
 
   border-radius: 20px;
   padding: 0px;
+  margin-right: 10px;
   background-color: rgb(255, 0, 0);
 }
 
@@ -103,7 +152,7 @@ header {
     
     border-radius: 20px;
     padding: 0px;
-    margin-left: 0.5%;
+  
     background-color: rgb(255, 153, 0);
 }
 .lista-cb > .doe > a {
