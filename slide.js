@@ -75,6 +75,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+var paiCabeçalho = document.querySelector('.paiCabeçalho');
+
+function clickMenu() {
+    if (paiCabeçalho.style.display === 'block' || paiCabeçalho.style.display === '') {
+        paiCabeçalho.style.display = 'none';
+    } else {
+        paiCabeçalho.style.display = 'block';
+    }
+}
+
+function mudouTamanho() {
+    if (window.innerWidth <= 1182) {
+        paiCabeçalho.style.display = 'none';
+    } else {
+        paiCabeçalho.style.display = 'block';
+    }
+}
+
+// Chama a função mudouTamanho() quando a página carrega e quando a janela é redimensionada
+window.onload = mudouTamanho;
+window.onresize = mudouTamanho;
+// pequenas telas até 600px
+// celular 600px a 768px
+// tablet 768px a 992px
+// desktop 992px a 1200px
+// grandes acima de 1200px
+
 
 
 
