@@ -59,7 +59,7 @@ header {
 
 @media only screen and (max-width: 1182px) {
     .paiCabeçalho{
-        display: block;
+        display: none;
         position: absolute;
         z-index: 1;
         width: 100%;
