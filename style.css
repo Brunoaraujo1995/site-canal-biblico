@@ -71,7 +71,7 @@ header {
       
     }
 
-
+  
 
     .lista-cb2 {
         text-align: center;
@@ -94,6 +94,12 @@ header {
         padding: 10px;
         margin-bottom: 10px;
         margin-top: 20px;
+    }
+
+
+    .paiCabeçalho .ped {
+        
+        border-bottom: 1px solid rgba(0, 0, 0, 0.507);
     }
 
     .paiCabeçalho .doe {
