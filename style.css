@@ -44,12 +44,13 @@ header {
 .menu-button {
     width: 50px;
     margin: auto;
-    display: block;
     display: none;
     transition: 0.3s ease;
 }
 
-
+.menu-button:hover {
+    filter: opacity(50%);
+}
 
 .lista-cb2 {
     display: none;
