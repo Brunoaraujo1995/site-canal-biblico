@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 var paiCabeçalho = document.querySelector('.paiCabeçalho');
 
 function clickMenu() {
-    if (paiCabeçalho.style.display === 'block' || paiCabeçalho.style.display === '') {
+    if (paiCabeçalho.style.display === 'block') {
         paiCabeçalho.style.display = 'none';
     } else {
         paiCabeçalho.style.display = 'block';
