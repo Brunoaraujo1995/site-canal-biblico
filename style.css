@@ -87,12 +87,23 @@ header {
     }
 
     .paiCabeçalho .youtube {
-        background-color: red;    
+        background-color: red; 
+        margin: auto;  
+        width: 30%; 
+        border-radius: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
 
     .paiCabeçalho .doe {
-        
-        background-color: rgb(255, 153, 0);    
+        margin-top: 20px;
+        background-color: red; 
+        margin: auto;  
+        width: 30%; 
+        border-radius: 50px;
+        padding: 10px; 
+        margin-bottom: 30px;  
     }
      .paiCabeçalho .doe {
         
@@ -160,47 +171,18 @@ header {
    margin: 0px;
 }
 
-#cabeçalho > .lista-cb > li:hover {
-    background-color: #000000;
 
+
+.lista-cb2 .doe a {
+    color: #000000;
+    font-weight: bold;
+    
+   
 }
 
-#cabeçalho > .lista-cb > .youtube{
-    width: 50%;
-    border-radius: 0px;
-    margin: auto;
-    margin-top: 10px;
-    
-}
-
-#cabeçalho > .lista-cb > .doe{
-    width: 50%;
-    border-radius: 0px;
-    margin: auto;
-    margin-top: 10px;
-    
-    
-}
-
-#cabeçalho > .lista-cb > .youtube > a{
-    margin: auto;
-    display: block;
-    
-}
-
-#cabeçalho > .lista-cb > .doe > a{
-    margin: auto;
-    display: block;
-    
-}
-
-#cabeçalho > .lista-cb > .doe:hover{
-    background-color: white;
-    width: 50%;
-    border-radius: 0px;
-    margin: auto;
-    margin-top: 10px;
-    
+.lista-cb2 .doe:hover {
+    background-color: #ffffff;
+   
 }
 
 
@@ -316,11 +298,12 @@ header {
 /*section*/
 
 #slide {
-    width: 100%;
+    width:100%;
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
     background-color: #070707;
+    
 }
 
 
@@ -347,7 +330,12 @@ header {
 
 .slide img{
     height: 125%;
-    width: 100vw;
+    width: 100%;
+    
+
+  
+    
+   
     
   
 }
