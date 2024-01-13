@@ -1252,6 +1252,135 @@ footer {
 /*DOAÇÃO */
 
 /*bloco 1*/
+.paraDoe {
+    display: block;
+     width: 300px;
+}
+
+.para2doe {
+    display: block;
+}
+
+@media only screen and (max-width: 1055px) {
+    .container-doaçao .back-doe .doacao-bloco-1 {
+        font-family: var(--estilo-fonte-1);
+        display: block;
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+    .container-doaçao .back-doe {
+        display: block;
+    }
+   .doacao-bloco-1 .doe-text3 {
+        display: block;
+        text-align: center;
+        margin: auto;   
+    }
+   .doe-text3 .paraDoe  {
+        text-align: center;
+        margin: auto;
+        display: block;
+     }
+  .doacao-bloco-1 .doe-text3 h1 {
+        display: block;
+        position:static;
+     }
+
+     .site-seguro h2 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 30px;
+        font-size: 18px;
+     }
+
+     /*bloco  12*/
+
+
+
+.container-doaçao .doacao-bloco-2 {
+    
+    font-family: var(--estilo-fonte-1);
+    display: block;
+    justify-content: center;
+}
+
+.container-doaçao  .doe-texto-2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;  
+}
+
+.container-doaçao  .doe-texto-2  h2 {
+   margin-right: 20px;
+}
+.container-doaçao  .doe-texto-2  p {
+    text-align: center;
+ }
+
+
+
+
+
+.doacao-bloco-2 .QR {
+    margin-top: 100px;
+    display: block;
+    text-align: center; 
+}
+
+.QR .para2doe {
+    text-align: center;
+    margin: auto;
+}
+
+/*BLOCO 3*/
+
+
+
+.container-doaçao .doacao-bloco-3 {
+    font-family: var(--estilo-fonte-1);
+    display: block;
+
+}
+
+.doacao-bloco-3 .doe-texto-3 {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+.container-doaçao .doe-texto-3 p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container-doaçao .what {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+.container-doaçao .what  p{
+    margin-top: 20px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.what h2 {
+    color: rgb(0, 238, 255);
+    margin: 0%;
+
+}
+
+
+}
+
+
 .container-doaçao {
     background-image: url(image/background/doa.jpg);
     background-position:center;
@@ -1275,8 +1404,7 @@ footer {
     font-family: var(--estilo-fonte-1);
     display: flex;
     justify-content: center;
-   
-      
+    
 }
 
 .doe-texto-1 {
@@ -1288,8 +1416,7 @@ footer {
     font-size: 4em;
     margin-left: 0px;
     color:rgb(219, 219, 219);
-    
-    
+     
 }
 
 .doe-text3 p{
