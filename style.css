@@ -5,7 +5,7 @@
     padding: 0px;
 }
 body {
-    background-color: rgb(197, 197, 197);
+  
    
 }
 
@@ -434,7 +434,7 @@ header {
         height: 100px;
         
         color: white;
-       
+        border-bottom: 1px solid rgba(0, 0, 0, 0.300);
         font-family: var(--estilo-fonte-1);
         z-index: 1;
     }
@@ -516,9 +516,10 @@ main {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    box-shadow:5px 2px 10px #00000031;
+    box-shadow:5px 2px 10px #00000002;
     padding: 50px 150px;
-    border-radius: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.301);
+    border-right: 1px solid rgba(0, 0, 0, 0.301);
     background-color: white;
     
 
@@ -606,7 +607,8 @@ main {
         margin-bottom: 40px;
         box-shadow:5px 2px 10px #00000031;
         padding: 50px 150px;
-        border-radius: 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.301);
+        border-right: 1px solid rgba(0, 0, 0, 0.301);
         background-color: white;
 
     }
@@ -620,17 +622,15 @@ main {
 }
 
 @media only screen and (max-width: 768px){
-    body {
-        background-color: #dddddd;
-    }
+    
     .main-back {
         width: 80px;
         margin: auto;
         margin-bottom: 40px;
         padding: 50px 150px;
-        border-radius: 10px;
+      
         box-shadow: none;
-        background-color: #dddddd;
+        background-color: #ffffff;
        
     }
     .sub {
