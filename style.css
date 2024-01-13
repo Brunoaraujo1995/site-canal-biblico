@@ -6,6 +6,7 @@
 }
 body {
     background-color: rgb(197, 197, 197);
+    overflow-x: hidden;
 }
 
 
@@ -986,7 +987,7 @@ footer {
 
 @media only screen and (max-width: 630px){
 
-   
+  
 
     .container-org-1 .text-oração{
         display: none;
