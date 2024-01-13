@@ -60,29 +60,28 @@ header {
 @media only screen and (max-width: 1182px) {
     .paiCabeçalho{
         display: none;
-        position: absolute;
         z-index: 1;
         width: 100%;
         background-color: var(--cor-primaria);
       
     }
 
-    .head-back .logo{
-        margin: auto;
-      
+    .paiCabeçalho .lista-cb2 {
+        padding-bottom: 90px;
     }
 
-  
-
+    .head-back .logo{
+        margin: auto;
+    }
     .lista-cb2 {
         text-align: center;
         display: block;
         margin: auto;
+     
        
     }
 
     .lista-cb2 li {
-        
         padding:20px;
         list-style: none;
     }
@@ -110,7 +109,7 @@ header {
         width: 30%; 
         border-radius: 50px;
         padding: 10px; 
-        margin-bottom: 30px;  
+        margin-bottom: -60px;  
     }
      .paiCabeçalho .doe {
         
@@ -176,6 +175,7 @@ header {
 
 .lista-cb {
    margin: 0px;
+
 }
 
 
@@ -189,12 +189,7 @@ header {
 
 .lista-cb2 .doe:hover {
     background-color: #ffffff;
-   
 }
-
-
-
-
     .logo { 
     text-align: center;   
     }
@@ -325,28 +320,15 @@ header {
 .slides input {
     display: none;
 }
-
-
 .slide {
     width: 25%;
     position: relative;
-    transition: 1s;
-    
+    transition: 1s;   
 }
-
-
 .slide img{
     height: 125%;
     width: 100%;
-    
-
-  
-    
-   
-    
-  
 }
-
 .manual-navigation {
     position:absolute;  
     width: 100%;  
@@ -472,7 +454,7 @@ header {
 @media only screen and (max-width: 1182px){
 
         #slide {
-            margin-top: 60px;
+            
             margin-bottom: 150px;
         }
 
@@ -1023,7 +1005,7 @@ footer {
     .container-oraçao .btn-enviar {
         margin-left: 65px; 
     }
-  
+    
 
     .container-oraçao .container-formulario {
         border-radius: 0px 0px 10px 10px ;
