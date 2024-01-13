@@ -620,11 +620,24 @@ main {
 }
 
 @media only screen and (max-width: 768px){
-   
+    body {
+        background-color: #dddddd;
+    }
+    .main-back {
+        width: 80px;
+        margin: auto;
+        margin-bottom: 40px;
+        padding: 50px 150px;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: #dddddd;
+       
+    }
     .sub {
         margin-left: 50px;
         text-align: center;
         margin-bottom: -50px;
+        margin-top: -60px;
         
     }
     .sub  h2{
@@ -643,16 +656,7 @@ main {
         display: none;
     }
 
-    .main-back {
-        width: 80px;
-        margin: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        box-shadow:5px 2px 10px #00000031;
-        padding: 50px 150px;
-        border-radius: 10px;
-        background-color: white;
-    }
+   
 }
 .artigo-2 {
     display: flex;
@@ -805,10 +809,10 @@ footer {
         position: absolute;
         margin-top: 340px;
         padding:    10px;
-        margin-left: -145px;
+        margin-left: -60px;
         background: none;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         transition: 0.5s ease;
         background-color: #20a6ff;
     
@@ -817,10 +821,10 @@ footer {
         position: absolute;
         margin-top: 340px;
         padding:    10px;
-        margin-left: 90px;
+        margin-left: 20px;
         background: none;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         transition: 0.5s ease;
         background-color: #20a6ff;
     }
@@ -1173,20 +1177,6 @@ footer {
 /*DIV EMAIL*/
 
 
-.container-email {
-   
-    height: 300px;
-    margin: 30px 0px;
-    background-color: var(--cor-primaria);
-}
-
-.container-email #icapt-email{
-    width: 300px;
-    outline: none;
-    border: none;
-    padding: 10px 20px;  
-    
-}
 
 .container-email #icapt-email:focus{
     background-color: #e7e7e7
@@ -1194,7 +1184,7 @@ footer {
     
 }
 
-.container-email #submit-2{
+.container-email #submit-3{
     
     background-color: #20a6ff;
     color: white;
@@ -1204,7 +1194,7 @@ footer {
    
 }
 
-#submit-2:hover{
+.submit-2:hover{
     background-color: #4bb7ff;
 }
 
@@ -1221,6 +1211,28 @@ footer {
     display: flex;
     justify-content: center;
    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container-email .ema   {
+        width: 50px;
+        margin: auto; 
+    }
+}
+.container-email {
+   
+    height: 300px;
+    margin: 30px 0px;
+    background-color: var(--cor-primaria);
+}
+
+.container-email #icapt-email{
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;  
+    
 }
 
 
