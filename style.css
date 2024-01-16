@@ -802,7 +802,7 @@ footer {
 /*VIDEOS DIV*/
 
 
-@media only screen and (max-width: 1187px){
+@media only screen and (max-width: 1190px){
     #video-back .videos {
         margin: auto;
         padding: 20px;
@@ -991,7 +991,7 @@ footer {
     
     .container-oraçao .nome {
         border:none;
-        width: 80px;
+        width: 129px;
         margin-right: 8px;
         margin-left: 40px; 
     }
@@ -999,7 +999,7 @@ footer {
     .container-oraçao .number,
     .container-oraçao .email {
         
-        width: 249px;
+        width: 300px;
         padding: 10px;
         margin: 10px;
         outline: none;
@@ -1009,7 +1009,7 @@ footer {
 
     .container-oraçao .textarea {
         margin-left: 40px; 
-        width: 250px;
+        width: 304px;
     
 }
     .container-oraçao .btn-enviar {
@@ -1019,14 +1019,14 @@ footer {
 
     .container-oraçao .container-formulario {
         border-radius: 0px 0px 5px 5px;
-        width: 350px;
+        width: 400px;
         background-color: #fffcfc4b;
         
     }
     
     .container-oraçao .container-nome {
         border-radius: 5px 5px 0px 0px;
-        width: 350px;
+        width: 400px;
         background-color: #ffffff4b;
     }
 
