@@ -721,15 +721,25 @@ main {
         width: 70%;
     }
 
-  
+    #sub1 .subtitulo{
+        margin-left: -25%;
+    }
 
     #main-back1 {
-        width: 99.5%;
+        
+        width: 90%;
         margin: 0px;
-        padding-left: 0px;
+        padding-left: 40px;
         padding-right: 0px;
     }
 
+    .a1-a h2 {
+        width: 80%;  
+    }
+
+    .a2 h2 {
+        width: 80%;  
+    }
   
 
 
