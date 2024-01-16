@@ -802,7 +802,7 @@ footer {
 /*VIDEOS DIV*/
 
 
-@media only screen and (max-width: 1182px){
+@media only screen and (max-width: 1187px){
     #video-back .videos {
         margin: auto;
         padding: 20px;
@@ -1042,7 +1042,7 @@ footer {
 }
 
 .text-oração {
-    width: px;
+  
    
     height: 300px;
     padding: 20px;
