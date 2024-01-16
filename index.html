@@ -126,15 +126,15 @@
             </div>
     </section>
     
-    <main>
-        <div class="main-back">
-            <div class="sub">
+    <main id="main-id">
+        <div class="main-back" id="main-back1">
+            <div class="sub" id="sub1">
                 <h1 class="subtitulo1">Artigos</h1>
                 <h2 class="subtitulo">subtitulo</h2>
             </div>
 
-            <div class="artigo-1">
-                <div class="a1">
+            <div class="artigo-1" id="iartigo-1">
+                <div class="a1" id="a1-1">
                     <a class="a1-a" href="#"><img  class="ia1" src="image/artigo/artigo1.png" alt=""></a>
                     <a class="a1-a" href="#"><h2>Domingo é dia de Celebração da Família</h2></a>
                     <a class="a1-a" href="#"><p> A Igreja Renascer em Cristo realiza neste domingo (07) os cultos de Celebração da Família, com louvores, orações, um grande clamor pelas...</p></a>
@@ -185,7 +185,7 @@
     <div id="video-back">
        
     <div class="videos">
-        <h1>Vídeos</h1>
+        <h1 id="video-title">Vídeos</h1>
         <div  class="navigation">
             
             <button class="button1" onclick="prevVideo()"><img src="image/seta/seta-esquerda.png" alt="" style="width: 30px; "></button>
@@ -293,16 +293,17 @@
     </div>
     </div>
  
-    <div class="container-oraçao">
-        <div class="container-org-1">
+    <div class="container-oraçao" id="c-ora">
+        <div class="container-org-1" id="c-org-1">
                 <div class="text-oração">
                     <h1>Pedidos de oração</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem porro error fugiat ex molestiae velit nisi asperiores? Totam minus quia quisquam, alias esse aut quis iure odit, quod, magni facilis.</p> <br>
                     
                 </div>
-            <form class="formulario" action="pedido.php" method="get" autocomplete="on">
+            <form class="formulario" id="iformu" action="pedido.php" method="get" autocomplete="on">
+                <div id="formulario-background">
                         
-                        <div class="container-nome">
+                        <div class="container-nome" id="c-nome">
                             <h1>Pedido de Oração</h1>
                             <input type="text" name="nome" class="nome" id="inome" placeholder="Nome" required>
                             <select class="oração" name="ora" id="iora" required>
@@ -318,15 +319,15 @@
                             </select>
                         </div>
 
-                        <div class="container-formulario">
+                        <div class="container-formulario" id="c-form">
                             <input type="text" name="cidade" class="cidade" id="icidade" placeholder="Cidade / Estado" required><br>
                             <input type="email" name="email" class="email" id="iemail" placeholder="E-mail" required><br>
                             <input type="number" name="number" class="number" id="inumber" placeholder="Telefone / Whatsapp" required><br>
-                            <textarea name="text-area" class="textarea" id="itext" placeholder="Deixe aqui seu pedido de oração..." required aria-required="true" aria-invalid="false" cols="60" rows="10"></textarea> <br>
-                            <input class="btn-enviar" type="submit"  value="Enviar">
+                            <textarea name="text-area" class="textarea" id="itexto" placeholder="Deixe aqui seu pedido de oração..." required aria-required="true" aria-invalid="false" cols="60" rows="10"></textarea> <br>
+                            <input class="btn-enviar" id="bt-enviar" type="submit"  value="Enviar">
                         </div>
                     
-                
+                    </div>       
                     
             </form>
         </div>
@@ -349,7 +350,7 @@
     <div class="container-doaçao">
         <div class="back-doe">
             <div class="doacao-bloco-1">
-                <div class="doe-text3" >
+                <div class="doe-text3" id="doac">
                     <h1>Doe</h1>
                     <p class="paraDoe">Você pode entregar a sua oferta ou fazer seus votos com segurança.</p>
                 </div>
@@ -363,7 +364,7 @@
 
 
 
-            <div class="doacao-bloco-2">
+            <div class="doacao-bloco-2" >
 
                 <div class="doe-texto-2">
                     <h1>Faça um <img style="width: 80px;" src="image/logo/pix.png" alt=""></h1>
