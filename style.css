@@ -704,7 +704,7 @@ main {
 
 
 /*FOOTER*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 499px) {
     footer .info {
         font-size: 14px;
     }
@@ -726,6 +726,23 @@ main {
     .doacao-bloco-1 .paraDoe {
         width: 70%;
     }
+
+    #videoList {
+       
+        width:90%;
+        
+    }
+
+    #main-back1 {
+        width: 99.5%;
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+  
+
+
 
 }
 
