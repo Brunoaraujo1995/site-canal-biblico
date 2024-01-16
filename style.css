@@ -34,7 +34,10 @@ body {
 
 header {
     background-color: var(--cor-primaria);
+    overflow: hidden;
 }
+
+
 
 .head-back {
     display: flex;
@@ -47,6 +50,7 @@ header {
     margin: auto;
     display: none;
     transition: 0.3s ease;
+   
 }
 
 .menu-button:hover {
@@ -155,36 +159,27 @@ header {
 
     #cabeçalho {
        display: none;
-       
        position: absolute;
        z-index: 1;
        width: 100%;
-
+       
     }
-
-
-
 
    #cabeçalho > .lista-cb  {
     display: block;
     text-align: center; 
     padding: 20px;
     background-color: #2b2b2b;
-    
 }   
 
 .lista-cb {
    margin: 0px;
-
+  
 }
-
-
 
 .lista-cb2 .doe a {
     color: #000000;
     font-weight: bold;
-    
-   
 }
 
 .lista-cb2 .doe:hover {
