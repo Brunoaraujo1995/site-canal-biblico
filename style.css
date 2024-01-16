@@ -965,55 +965,7 @@ footer {
         margin-right: 100px;
         padding-top: 90px;
         margin-left: 100px;
- 
-    }
-
-    .container-oraçao  .nome,.container-oraçao  .oração {
-        width: 150px;
-        padding: 10px;
-        outline: none;
- 
-    }
-    
-    .container-oraçao .nome {
-        border:none;
-        width: 129px;
-        margin-right: 8px;
-        margin-left: 40px; 
-    }
-    .container-oraçao .cidade,
-    .container-oraçao .number,
-    .container-oraçao .email {
-        
-        width: 300px;
-        padding: 10px;
-        margin: 10px;
-        outline: none;
-        border:none;
-        margin-left: 40px;  
-    }
-
-    .container-oraçao .textarea {
-        margin-left: 40px; 
-        width: 304px;
-    
-}
-    .container-oraçao .btn-enviar {
-        margin-left: 40px; 
-    }
-    
-
-    .container-oraçao .container-formulario {
-        border-radius: 0px 0px 5px 5px;
-        width: 400px;
-        background-color: #fffcfc4b;
-        
-    }
-    
-    .container-oraçao .container-nome {
-        border-radius: 5px 5px 0px 0px;
-        width: 400px;
-        background-color: #ffffff4b;
+       
     }
     
 }
@@ -1039,7 +991,7 @@ footer {
     
     .container-oraçao .nome {
         border:none;
-        width: 129px;
+        width: 80px;
         margin-right: 8px;
         margin-left: 40px; 
     }
@@ -1047,7 +999,7 @@ footer {
     .container-oraçao .number,
     .container-oraçao .email {
         
-        width: 300px;
+        width: 250px;
         padding: 10px;
         margin: 10px;
         outline: none;
@@ -1057,7 +1009,7 @@ footer {
 
     .container-oraçao .textarea {
         margin-left: 40px; 
-        width: 304px;
+        width: 250px;
     
 }
     .container-oraçao .btn-enviar {
@@ -1067,14 +1019,14 @@ footer {
 
     .container-oraçao .container-formulario {
         border-radius: 0px 0px 5px 5px;
-        width: 400px;
+        width: 350px;
         background-color: #fffcfc4b;
         
     }
     
     .container-oraçao .container-nome {
         border-radius: 5px 5px 0px 0px;
-        width: 400px;
+        width: 350px;
         background-color: #ffffff4b;
     }
 
