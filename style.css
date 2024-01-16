@@ -722,14 +722,18 @@ main {
     }
 
     #sub1 .subtitulo{
-        margin-left: -25%;
+        margin-left: -22%;
+    }
+
+    #sub1 .subtitulo1{
+        margin-left: -20%;
     }
 
     #main-back1 {
         
         width: 90%;
         margin: 0px;
-        padding-left: 40px;
+        padding-left: 45px;
         padding-right: 0px;
     }
 
