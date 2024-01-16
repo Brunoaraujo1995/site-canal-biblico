@@ -730,10 +730,10 @@ main {
     }
 
     #main-back1 {
-        
+        border: none;
         width: 90%;
         margin: 0px;
-        padding-left: 20px;
+        padding-left: 30px;
         padding-right: 0px;
     }
 
